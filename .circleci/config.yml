@@ -34,7 +34,7 @@ jobs:
           command:  'sudo npm install -g @angular/cli'
       - run: 
           name: install-npm-angular
-          command:  npm install
+          command:  'sudo npm install'
       - save_cache:
           key:  dependency-cache-{{ checksum "package.json" }}
           paths:
@@ -42,4 +42,4 @@ jobs:
       # run tests!
       - run:
           name: npm-angular-test
-          command:  ng test --watch=false --browsers=ChromeHeadless
+          command:  'sudo ng test --watch=false --browsers=ChromeHeadless'
