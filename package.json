@@ -1,0 +1,27 @@
+{
+  "name": "ng-paint",
+  "version": "1.0.0",
+  "description": "Angular version of MS-paint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumitparakh/ngpaint.git"
+  },
+  "keywords": [
+    "paint",
+    "angular",
+    "javascript",
+    "canvas",
+    "vector",
+    "graphics"
+  ],
+  "author": "Sumit Parakh - @sumitparak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumitparakh/ngpaint/issues"
+  },
+  "homepage": "https://github.com/sumitparakh/ngpaint#readme"
+}
