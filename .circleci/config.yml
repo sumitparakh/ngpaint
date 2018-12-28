@@ -29,7 +29,9 @@ jobs:
           - dependency-cache-{{ checksum "package.json" }}
           # fallback to using the latest cache if no exact match is found
           - dependency-cache
-
+      - run: 
+          name: install-npm-globally
+          command:  npm install -g @angular/cli
       - run: 
           name: install-npm-angular
           command:  npm install
